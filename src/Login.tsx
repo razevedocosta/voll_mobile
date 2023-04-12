@@ -31,11 +31,11 @@ export default function Login() {
         Entrar
       </Button>
 
-      <Link href="#">
+      <Link href="#" mt={2}>
         Esqueceu sua senha?
       </Link>
 
-      <Box>
+      <Box w="100%" flexDirection="row" justifyContent="center" mt={8}>
         <Text>Ainda não tem conta?</Text>
 
         <TouchableOpacity>
